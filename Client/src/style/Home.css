@@ -1,0 +1,61 @@
+.home {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 210px;
+    background-image: url('../images/home.jpg'); /* Path to your background image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+  }
+  
+  .header {
+   
+    color: rgb(49, 46, 46);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin:  0;
+    font-size: 40px;
+  }
+  
+  .main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Add opacity to make text readable */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+  }
+  
+ 
+ 
+  p {
+    color: #030303;
+    line-height: 1.6;
+    font-size: 18px;
+    text-transform: bold;
+  }
+  
+  .check-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 380px;/* Adds space between paragraph and button */
+    margin-top: 80px;
+    text-align: center;
+  }
+  
+  
+  .check-button:hover {
+    background-color: #0056b3;
+  }
+  
+ 

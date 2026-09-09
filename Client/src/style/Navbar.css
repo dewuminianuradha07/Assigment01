@@ -1,0 +1,123 @@
+.navbar {
+    width: 100%;
+    height: 110px;
+    background-color: #0c1225;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .navbar .leftSide {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    
+  }
+  .navbar img {
+    width: 100px; 
+    height: auto; 
+    margin-right: 400px;
+
+  }
+  
+  .navbar .leftside {
+    flex: 1;
+  }
+  
+  .navbar .rightSide {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 40px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .navbar a:hover {
+    color: #239599; /* Hover color */
+  }
+  
+  
+  .navbar #open a {
+    width: 70px;
+    margin: 5px;
+  }
+  @media only screen and (max-width: 900px) {
+    .navbar .rightSide a {
+      width: 100px;
+    }
+    .navbar .leftSide {
+      padding-left: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .navbar .rightSide a {
+      display: none;
+    }
+  
+    .navbar .rightSide {
+      justify-content: flex-end;
+      padding-right: 50px;
+    }
+  
+    .navbar .rightSide button {
+      display: inherit;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .navbar .rightSide button {
+      display: none;
+    }
+  
+    .hiddenLinks {
+      display: none;
+    }
+
+  }
+  
+.login,
+.signup {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 10px;
+  margin-right: -25px;
+  margin-top: -14px;
+
+ 
+
+
+ 
+
+
+}
+
+.login:hover,
+.signup:hover {
+  background-color: white;
+  color: #0b1620;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.signup {
+  border: 1px solid #007bff;
+  background-color: #007bff;
+}
+
+.signup:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
